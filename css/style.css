@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-bottom: 20px;
+}
+
+.box, .nested-box{
+    background-color:#006CFA;
+    border: 1px solid white;
+    padding: 15px;
+    color: white;
+}
+
+.nested-box{
+    background-color:#00E164;
+    border-color: #006CFA;
+}
