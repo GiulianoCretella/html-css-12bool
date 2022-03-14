@@ -10,18 +10,33 @@ section{
 .box, .nested-box{
     background-color:#006CFA;
     border: 1px solid white;
-    padding: 15px;
     color: white;
+    padding: 10px;
     display: flex;
 }
-
 .nested-box{
     background-color:#00E164;
     border-color: #006CFA;
+    min-height: 50px;
 }
 .space-around{
     justify-content: space-around;
 }
 .space-between{
     justify-content: space-between;
+}
+
+.top{
+    padding: 1px;
+}
+.middle{
+    margin-top: 10px;
+    padding: 1px;
+}
+.bottom{
+    margin-top: 20px;
+    padding: 1px;
+}
+.align.box{
+    border: #006CFA;
 }
